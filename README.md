@@ -1,2 +1,2 @@
-# react-native-tutoriol
+# react-native-tutorial
 thinking and working it
