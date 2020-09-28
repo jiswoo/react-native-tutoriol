@@ -1,6 +1,6 @@
 # react-native-tutorial
 
-![React Native Logo](images.rar/reactnative.png)
+![React Native Logo](/reactnative.png)
 
 # React Native
 
@@ -159,7 +159,7 @@ Chú ý version phiên bản glog (0.3.5) mà bạn đang sử dụng.
 
 ## 5. Các thành phần cơ bản của dự án
 Cấu trúc thư mục mà bạn nhìn thấy có thể sẽ như dưới đây (tùy version react-native hiện tại của bạn). Hình dưới đây không bao gồm một vài file bị ẩn thuộc cấu hình của react-native<br>
-![](images/first-project.jpg)
+![](first-project.jpg)
 
 - **Thư mục Android**: chứa toàn bộ source build ứng dụng Android. Chúng ta có thể mở thư mục Android bằng Android studio và chạy ứng dụng thay vì sử dụng dòng lệnh ```react-native run-android``` nhưng có thể ứng dụng sẽ không build mã javascript được và sẽ xuất hiện màn hình trắng trên điện thoại android.
 
@@ -182,7 +182,7 @@ Cấu trúc thư mục mà bạn nhìn thấy có thể sẽ như dưới đây 
 Component là một thành phần cơ bản trong ứng dụng react-native. Mọi view, screen đều được kế thừa từ lớp component này.
 
 ### 6.1. Vòng đời của component
-![](images/life-circle.png)
+![](life-circle.png)
 <br><em>(Nguồn:: internet)</em>
 
 **Các hàm được gọi trong vòng đời của Component**
@@ -1037,14 +1037,14 @@ Dòng lệnh này thực hiện import toàn bộ những class được xuất 
 
 ## 13. Giao tiếp Client vs Server
 ### 13.1. RESTful API.
-![](images/restful.jpg)
+![](/restful.jpg)
 (nguồn internet)
 
 Nếu bạn không biết RESTful API là gì thì có thể đọc thêm bài viết này (<https://viblo.asia/p/thiet-ke-restful-api-GrLZD98Vlk0>) để hiểu rõ hơn về RESTful API. Đây là một trong những chuẩn giao tiếp phổ biến giữa client và server.
 
 Phần Demo này được trình bày khá rõ ràng và chi tiết trong ví dụ Example (app/modules/screens/RestFul/RestFul.js). Bạn nên chạy ví dụ trước để thấy cách hoạt động của nó. Demo bao gồm việc gọi một public api từ <https://api.ice5.skyx.app/get_languages> (GET) và hiển thị kết quả như sau:
 
-![](images/restful-demo.jpg)
+![](/restful-demo.jpg)
 
 
 - File Thiết kế RestFull tổng quan: app/libs/RESTClient.js
