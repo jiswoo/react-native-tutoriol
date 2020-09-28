@@ -1,6 +1,6 @@
 # react-native-tutorial
 
-![React Native Logo](images/reactnative.png)
+![React Native Logo](images.rar/reactnative.png)
 
 # React Native
 
